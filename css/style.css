@@ -1,0 +1,90 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/* --------------------------
+      menu css 
+---------------------------*/
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #2D25A0;
+}
+
+
+/* .menu{
+    
+}
+.menu-items{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    
+}
+.menu-items ul li{
+    list-style: none;
+    
+}
+.menu-items ul li a{
+    text-decoration: none;
+} */
+
+
+/* ----------------------
+bannner part css 
+------------------------*/
+
+.banner{
+    width: 1160px;
+    margin: 105px;
+}
+.banner-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-colum-gap:80px;
+    
+}
+
+.banner-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #ffff;
+    
+}
+
+.banner-image img{
+    width: 500px;
+    height: 438px;
+}
+.copa-btn{
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: cornsilk;
+    
+}
+.copa-btn span{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+

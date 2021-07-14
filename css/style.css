@@ -202,14 +202,14 @@ blog{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.image-items{
-    padding: 15px 25px;
+.news-image {
+    padding: 15px 18px;
 }
-.news-1 .image-items p{
+.news-1 .news-image  p{
     text-transform: uppercase;
     color: grey;
 }
-.news-1 .image-items h2{
+.news-1 .news-image h2{
     font-size: 18px;
     color: #312e2e;
 }
@@ -349,25 +349,24 @@ footer{
     transition: 0.5s;
 }
 
+
+/* -------------------------------
+      media query css parts 
+----------------------------------*/
+
 @media only screen and (min-width: 688px) {
     
     body{
-        
-        font-family: 'Poppins', sans-serif;
         text-align: center;
-        padding: 5px;
     }
-
-
-
     .banner, .top-players, .highlights{
         width: 100%;
     }
 
-    .banner-content, .player-1{
+    .banner-content, .player-1, .news-1  {
         flex-direction: column;
-        justify-content: center;
-        width
+        justify-content: space-between;
+        width: 300px;
     }
     .banner-items, .highlight-items {
         grid-template-columns: repeat(1, 1fr);
@@ -375,9 +374,7 @@ footer{
     .top-player, .news-blog, .team-blog, .gallary-blog {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
-
     }
-
     .banner-content h1{
         font-weight: 700;
         font-size: 54px;
@@ -391,10 +388,73 @@ footer{
     .banner-content img{
         margin-top: 30px;
     }
-
-
-
-
-
-
   }
+
+  
+@media only screen and (min-width: 320px) and (max-width: 688px) {
+    
+    body{
+        text-align: center;
+    }
+    #allHighlights, .gallary-blog{
+        margin-top: 10px;
+    }
+    .top-players, .teams-blogs, .news-blogs{
+        margin-top: 50px;
+    }
+
+    .banner, .top-players, .news-blog{
+        width: 100%;
+    }
+
+    .banner-content, .player-1, .news-image  {
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        width: 90%;
+        height: auto;
+    } 
+    .banner-items, .highlight-items, .top-player, .news-blog, .team-blog, .gallary-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-header{
+        font-weight: 500;
+        font-size: 34px;
+    }
+   
+    .banner-content h1{
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 35px;
+        color: #ffff;
+        width:300px;
+    }
+    .banner-content img{
+        width:300px;
+    }
+    .highlight-content h2{
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 35px;
+
+    }
+    .highlight-content p{
+        font-weight: 400;
+        font-size: 12px;
+        padding: 10px;  
+    }
+    .banner-content .copa-btn{
+        margin-left: 50px;
+    }
+    .banner-content img{
+        margin-top: 30px;
+    }
+    .highlight-content img{
+        width: 90%;
+        height: auto;
+    }
+
+    .footer-item img{
+        width: 320px;
+    }
+  } 

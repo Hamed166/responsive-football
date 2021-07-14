@@ -54,6 +54,13 @@ bannner part css
     justify-content: center;
     grid-column-gap:85px;
 }
+.banner-content{
+    transition: transform ease-in-out 5s;
+}
+.banner-content:hover .banner-image{
+    transform: translateX(-40px);
+
+} 
 
 .banner-content h1{
     font-weight: 700;

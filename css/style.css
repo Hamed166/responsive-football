@@ -66,7 +66,7 @@ bannner part css
 /* .banner-content{
     grid-column: ;
 } */
-.banner-image img{
+.banner-content img{
     width: 100%;
 }
 .copa-btn{
@@ -336,3 +336,39 @@ footer{
     color: #E02C6D;
     transition: 0.5s;
 }
+
+@media only screen and (min-width: 688px) {
+    
+    .banner, .top-players{
+        width: 100%;
+    }
+
+    .banner-content, .player-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-items,{
+        grid-template-columns: repeat(1, 1fr);
+        background-color: hotpink;
+    }
+    .top-player{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: hotpink;
+    }
+    
+    .banner-content h1{
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 65px;
+        color: #ffff;
+        
+        text-align: center;
+    }
+    .banner-content .copa-btn{
+        margin-left: 160px;
+    }
+    .banner-content img{
+        margin-top: 30px;
+
+    }
+  }

@@ -220,7 +220,7 @@ blog{
 #teams-blog{
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 
@@ -262,8 +262,42 @@ blog{
 }
 
 
+/* ----------------------------
+        gallary part css 
+------------------------------*/
+#gallary-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    background-color: #b8b2b2;
+}
 
 
+.gallary-blogs{
+    width: 1160px;
+    margin: 65px;
+}
+
+.gallary-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px; 
+    
+}
+.photo-1{
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #b8b2b2;
+}
+.gallary-image img{
+    width: 100%;
+    overflow: hidden;
+    
+}
 
 
 
@@ -276,7 +310,6 @@ footer{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    
    
 }
 .footer-items {
@@ -295,7 +328,7 @@ footer{
     color: #000000;
 }
 .footer-item .fab{
-    font-size: 24px;
+    font-size: 36px;
     margin-right: 15px;
     color: #969BAB;
 }

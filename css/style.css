@@ -9,9 +9,6 @@ body{
 
 
 
-
-
-
 /* --------------------------
       menu css 
 ---------------------------*/
@@ -57,10 +54,7 @@ bannner part css
     justify-content: center;
     grid-column-gap:85px;
 }
-/* .banner-content{
-    position: relative;
-    top: 0;
-} */
+
 .banner-content h1{
     font-weight: 700;
     font-size: 64px;
@@ -92,7 +86,7 @@ bannner part css
 
 
 /* -----------------------------
-       top players part css
+       top players blog css
 ------------------------------ */
 blog{
     display: flex;
@@ -103,7 +97,12 @@ blog{
 
 .top-players{
     width: 1160px;
-    margin-top: 85px;
+    margin-top: 65px;
+}
+.section-header{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 .top-player{
     display: grid;
@@ -117,7 +116,7 @@ blog{
 }
 .player-1{
     width: 330px;
-    height: 426px;
+    height: 430px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px 15px 30px 15px;
@@ -127,12 +126,12 @@ blog{
     width: 100%;
 }
 
-/* ------------------------
+/* --------------------------
      highlights css 
 ----------------------------*/
 #allHighlights{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     justify-content: center;
 }
 
@@ -158,17 +157,119 @@ blog{
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .highlight-image img{
     width: 550px;
-    height: 427px;
+    height: 420px;
+}
+
+
+/* ------------------------------
+      news part css 
+------------------------------*/
+
+#news-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+.news-blogs{
+    width: 1160px;
+    margin-top: 65px;
+}
+
+.news-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 27px;
+    grid-column-gap: 20px;
+}
+.news-1{
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    border-radius: 10px;
+}
+.news-image img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.image-items{
+    padding: 15px 25px;
+}
+.news-1 .image-items p{
+    text-transform: uppercase;
+    color: grey;
+}
+.news-1 .image-items h2{
+    font-size: 18px;
+    color: #312e2e;
+}
+
+/*------------------------------
+        team part css 
+-------------------------------*/
+
+#teams-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+.teams-blogs{
+    width: 1160px;
+    margin-top: 65px;
+}
+
+.team-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 27px;
+    grid-column-gap: 20px;
+}
+.team-1{
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    border-radius: 10px;
+}
+.teams-image img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.image-items{
+    padding: 15px 25px;
+}
+.news-1 .image-items p{
+    text-transform: uppercase;
+    color: grey;
+}
+.news-1 .image-items h2{
+    font-size: 18px;
+    color: #312e2e;
 }
 
 
 
 
-/* footer part css */
+
+
+
+/* -----------------------------
+       footer part css       
+--------------------------------*/
 
 
 footer{

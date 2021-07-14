@@ -354,11 +354,11 @@ footer{
       media query css parts 
 ----------------------------------*/
 
-@media only screen and (min-width: 688px) {
+@media only screen and (max-width: 688px) {
     
     body{
         text-align: center;
-    }
+    } 
     .banner, .top-players, .highlights{
         width: 100%;
     }
@@ -366,15 +366,14 @@ footer{
     .banner-content, .player-1, .news-1  {
         flex-direction: column;
         justify-content: space-between;
-        width: 300px;
+        
     }
     .banner-items, .highlight-items {
         grid-template-columns: repeat(1, 1fr);
     }
     .top-player, .news-blog, .team-blog, .gallary-blog {
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-    }
+    } 
     .banner-content h1{
         font-weight: 700;
         font-size: 54px;
@@ -390,7 +389,7 @@ footer{
     }
   }
 
-  
+
 @media only screen and (min-width: 320px) and (max-width: 688px) {
     
     body{
@@ -457,4 +456,4 @@ footer{
     .footer-item img{
         width: 320px;
     }
-  } 
+  }  */
